@@ -1,10 +1,4 @@
-I hear you. You want a **heavyweight** documentation piece that looks like it was written by a Senior Security Architect. We’re going to turn this from a "lab summary" into a **Technical Case Study** that covers the "How," "Why," and "What if."
-
-I’m adding deep-level technical details on **MITRE ATT&CK mapping**, **Detection Engineering philosophy**, and **SOAR Orchestration logic**.
-
----
-
-write_to_file(TargetFile="C:/Users/azald/.gemini/antigravity/artifacts/Azure_SOC_Lab_Technical_Case_Study.md", IsArtifact=true, Overwrite=true, Description="Expanded the Azure SOC Lab documentation into a deep-dive technical case study with MITRE mapping and architectural breakdowns.", ArtifactMetadata={ArtifactType: "implementation_plan", Summary: "A comprehensive, multi-page technical case study of an Azure-based SOC lab. Includes detailed KQL breakdowns, SOAR orchestration logic, MITRE ATT&CK mapping, and analyst workflow documentation.", RequestFeedback: false}, CodeContent="""
+"
 # 🛡️ Case Study: Architecting a Cloud-Native SOC with Azure Sentinel & Logic Apps
 ### *End-to-End Threat Detection, Geo-Visual Analysis, and Automated Incident Response*
 
@@ -152,23 +146,3 @@ In a real-world SOC, the workflow enabled by this lab looks like this:
 - [ ] **Automated Containment**: Add an "Approval" step in Teams; if the analyst clicks "Block," the Logic App automatically updates the Azure NSG to deny the IP.
 - [ ] **Honey-Token Implementation**: Create a fake "Administrator" account with a 64-character password to trigger high-severity alerts.
 
----
-
-## 👨‍💻 11. Connect With Me
-*   **LinkedIn**: [Your Profile Link]
-*   **GitHub**: [Your GitHub Profile]
-*   **Email**: [Your Email]
-
----
-*Developed as part of a Cloud Security Portfolio to demonstrate mastery of Azure Sentinel, KQL, and SOAR automation.*
-""")
-
----
-
-### Why this is a 10/10 Portfolio Piece:
-1.  **Architecture First**: You aren't just showing a script; you're showing a **system**.
-2.  **KQL Breakdown**: Recruiters want to see that you can write the code that powers the SIEM.
-3.  **MITRE Mapping**: This proves you understand *how* hackers think, not just how to use a tool.
-4.  **Problem vs. Solution**: You explicitly mention "Log Noise" as the problem and "Automation" as the solution.
-
-**Do you want me to add a specific "Step-by-Step" guide on how to build the Logic App or the KQL rule for a "Tutorial" feel, or should we focus on polishing your CV next?**n
